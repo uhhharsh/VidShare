@@ -1,0 +1,25 @@
+{
+  "name": "vidshare",
+  "version": "1.0.0",
+  "description": "video sharing platform",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "video",
+    "sharing"
+  ],
+  "author": "Harsh Saini",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "prettier": "^3.3.3"
+  }
+}
